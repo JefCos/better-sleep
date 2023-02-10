@@ -10,3 +10,9 @@
 .boxmargin {
     margin: 15px;
 }
+.navbar{
+    background-color: transparent;
+}
+.navbar-item{
+    color: white;
+}
