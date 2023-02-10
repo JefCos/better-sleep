@@ -1,4 +1,4 @@
-.moon{
+.background{
 
 background-color: black;
     background-blend-mode: luminosity;
@@ -7,8 +7,7 @@ background-color: black;
     background-position:center;
     background-repeat:no-repeat;
     background-size:cover;
-    background-image: url("moon_index.png");
-    background-image: url("DALL·E 2023-02-10 11.16.18 - kannst du mir ein Bild der Mond in realistische bezeichnung mit animierte Sternen-modified.png");
+    background-image: url("stars_background.png");
 
 }
 ul li:hover ul {display: block;}
@@ -23,4 +22,11 @@ a {
 }
 a:hover{
     color: #9fbbff
+}
+
+.moon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
