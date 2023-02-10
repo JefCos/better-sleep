@@ -10,34 +10,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body >
-<section>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-            <a class="navbar-item">
-                <img src="moon_index.png" alt="Mond">
-            </a>
-            <span class="navbar-item sleepy">SLEEPY TURTLE</span>
-        </div>
-
-        <div class="navbar-menu is-active">
-            <div class="navbar-start">
-                <a class="navbar-item" href="index.html">
-                    Home
-                </a>
-
-                <a class="navbar-item" href="facts.html">
-                    Fakten & Zahlen
-                </a>
-                <a class="navbar-item" href="tipps.html">
-                    Tipps & Tricks
-                </a>
-                <a class="navbar-item" href="neurobio.html">
-                    Neurobiologie des Schlafes
-                </a>
-            </div>
-        </div>
-    </nav>
-</section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>    $(function(){        $("#nav-placeholder").load("nav.html");    });</script>
+<div id="nav-placeholder"></div>
 <div class="container"></div>
 <div class="columns">
     <div class="column">
