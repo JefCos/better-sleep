@@ -6,7 +6,9 @@
     background-size:cover;
     background-image: url("stars_background.png");
 }
-
+.sleepy{
+    font-family: Jokerman;
+}
 .boxmargin {
     margin: 15px;
 }
@@ -15,4 +17,11 @@
 }
 .navbar-item{
     color: white;
+}
+@media screen and (max-width: 1023px) {
+    .navbar-menu {
+        background-color: transparent;
+        box-shadow: 0 8px 16px rgb(10 10 10 / 10%);
+        padding: 0.5rem 0;
+    }
 }
