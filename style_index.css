@@ -14,6 +14,12 @@ ul li:hover ul {display: block;}
 ul li ul {
     position: absolute;
     width: 200px;
-    color: white;
     display: none;
+}
+
+a {
+    color: white;
+}
+a:hover{
+    color: #9fbbff
 }
