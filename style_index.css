@@ -34,12 +34,6 @@ a:hover {
 }
 
 
-.moon {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
 .navbar{
     background-color: transparent;
 }
@@ -59,4 +53,7 @@ a:hover {
         box-shadow: 0 8px 16px rgb(10 10 10 / 10%);
         padding: 0.5rem 0;
     }
+}
+.navbar-burger{
+    color: white;
 }
