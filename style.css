@@ -1,4 +1,8 @@
 .has-Sky{
 
+ height:100%;
+ background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
     background-image: url("DALL·E 2023-02-10 13.48.35 - a 3d rendering of the sky at night with many stars and beyond.png");
 }

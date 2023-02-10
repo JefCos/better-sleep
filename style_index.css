@@ -1,6 +1,11 @@
 .moon{
-    background-attachment: scroll;
+
 background-color: black;
     background-blend-mode: luminosity;
+
+    height:100%;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
     background-image: url("DALL·E 2023-02-10 11.16.18 - kannst du mir ein Bild der Mond in realistische bezeichnung mit animierte Sternen-modified.png");
 }
