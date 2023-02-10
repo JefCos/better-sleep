@@ -46,6 +46,13 @@ a:hover {
 .navbar-item{
     color: white;
 }
+.navbar-link{
+    color: white;
+}
+
+.navbar-dropdown {
+    background-color: transparent;
+}
 @media screen and (max-width: 1023px) {
     .navbar-menu {
         background-color: transparent;
