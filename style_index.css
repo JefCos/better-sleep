@@ -33,6 +33,7 @@ a:hover {
     align-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
+    padding-left: 15px;
 }
 
 
