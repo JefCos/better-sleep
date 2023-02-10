@@ -34,19 +34,22 @@ a:hover {
 }
 
 
-.navbar{
+.navbar {
     background-color: transparent;
 }
-.navbar-item{
+
+.navbar-item {
     color: white;
 }
-.navbar-link{
+
+.navbar-link {
     color: white;
 }
 
 .navbar-dropdown {
     background-color: transparent;
 }
+
 @media screen and (max-width: 1023px) {
     .navbar-menu {
         background-color: transparent;
@@ -54,6 +57,21 @@ a:hover {
         padding: 0.5rem 0;
     }
 }
-.navbar-burger{
+
+.navbar-burger {
     color: white;
+}
+
+.is-horizontal-center {
+    justify-content: center;
+}
+.is-vertical-center {
+    align-items: center;
+}
+
+.figuremaxWidth {
+    max-width: 50%
+}
+.viewporthight {
+    height:100vh
 }
