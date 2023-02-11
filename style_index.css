@@ -76,3 +76,15 @@ a:hover {
 .viewporthight {
     height:100vh
 }
+.in-Mitte{
+    display: flex;
+   justify-self: center;
+
+    grid-column: 1/2;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+
+}
