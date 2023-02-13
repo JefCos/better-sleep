@@ -37,8 +37,14 @@ a:hover {
 
 .navbar {
     background-color: transparent;
+
 }
 
+@media screen and (min-width: 1023px) {
+    .navbar{
+        margin-left: 100px;
+    }
+}
 .navbar-item {
     color: white;
 }
@@ -202,4 +208,8 @@ a:hover {
     50% {
         opacity: 0;
     }
+}
+.sleepy {
+    font-size: xx-large;
+    font-family: Jokerman, serif;
 }
