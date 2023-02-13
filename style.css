@@ -46,3 +46,6 @@
 .navbar-burger {
     color: white;
 }
+.image{
+    max-width: 100%;
+}
