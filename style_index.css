@@ -57,7 +57,9 @@
 
 }
 
-
+.navbar-dropdown a.navbar-item:hover {
+    color: lightblue;
+}
 .navbar-burger {
     color: white;
 }
