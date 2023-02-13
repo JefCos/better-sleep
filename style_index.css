@@ -86,5 +86,120 @@ a:hover {
 .grid{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
+}
 
+.stars{
+    font-size: xxx-large;
+    color: transparent;
+    text-shadow: 0 0 2px lightyellow;
+    position: relative;
+    opacity: 1;
+    animation: blinking 2.5s cubic-bezier(0.36, 0.71, 0.53, 1.05) infinite;
+}
+.star1{
+    font-size: x-large;
+    text-shadow: 0 0 1px pink;
+    left: 50%;
+    top: 30%;
+    animation-delay: 1s;
+}
+.star2{
+    left: 20%;
+    bottom: 30%;
+    animation-delay: 500ms;
+    animation-duration: 3s;
+}
+.star3{
+    left: 40%;
+    bottom: 10%;
+    animation-delay: 750ms;
+    animation-duration: 4s;
+}
+.star4{
+    right: 20%;
+    top: 40%;
+    animation-duration: 3s;
+}
+.star5{
+    text-shadow: 0 0 1px pink;
+    right: 50%;
+    top: 30%;
+    animation-delay: 800ms;
+    animation-duration: 3s;
+}
+.star6{
+    right: 20%;
+    bottom: 30%;
+    animation-delay: 50ms;
+    animation-duration: 3s;
+}
+.star7{
+    right: 40%;
+    bottom: 10%;
+    animation-delay: 1.5s;
+    animation-duration: 3s;
+}
+.star8{
+    text-shadow: 0 0 3px pink;
+    left: 10%;
+    top: 35%;
+    animation-delay: 100ms;
+    animation-duration: 2s;
+}
+.star9{
+    font-size: x-large;
+    text-shadow: 0 0 1px pink;
+    left: 50%;
+    top: 20%;
+    animation-delay: 1s;
+}
+.star10{
+    text-shadow: 0 0 1px pink;
+    font-size: x-large;
+    bottom: 30%;
+    animation-delay: 500ms;
+    animation-duration: 3s;
+}
+.star11{
+    text-shadow: 0 0 4px pink;
+    right: 40%;
+    animation-delay: 750ms;
+    animation-duration: 4s;
+}
+.star12{
+    right: 20%;
+    top: 40%;
+    animation-delay: 1s;
+    animation-duration: 3s;
+}
+.star13{
+
+   left: 50%;
+    top: 30%;
+    animation-delay: 800ms;
+    animation-duration: 3s;
+}
+.star14{
+    left: 20%;
+    bottom: 40%;
+    animation-delay: 50ms;
+    animation-duration: 3s;
+}
+.star15{
+    left: 40%;
+    animation-delay: 1.5s;
+    animation-duration: 3s;
+}
+.star16{
+
+    left: 10%;
+    top: 35%;
+    animation-delay: 1s;
+    animation-duration: 2s;
+}
+
+@keyframes blinking {
+    50% {
+        opacity: 0;
+    }
 }
