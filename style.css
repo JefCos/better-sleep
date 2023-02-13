@@ -22,6 +22,11 @@
     margin: 15px;
 }
 
+.boxstyling {
+    background-color: #78909c33 ;
+    color: white;
+}
+
 .navbar {
     background-color: transparent;
 }
