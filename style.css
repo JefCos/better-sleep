@@ -7,6 +7,12 @@
     background-image: url("stars_background.png");
     background-attachment: fixed;
 }
+.is-horizontal-center {
+    justify-content: center;
+}
+.is-vertical-center {
+    align-items: center;
+}
 
 .sleepy {
     font-family: Jokerman, serif;
