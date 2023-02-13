@@ -48,6 +48,16 @@
     }
 }
 
+.navbar-item.has-dropdown.is-active .navbar-link,.navbar-item.has-dropdown:focus .navbar-link,.navbar-item.has-dropdown:hover .navbar-link {
+    background-color: transparent;
+    color: lightblue;
+}
+.navbar-item.has-dropdown.is-active .navbar-link,.navbar-item.has-dropdown:focus .navbar-link,.navbar-item.has-dropdown:hover .navbar-item {
+    background-color: transparent;
+
+}
+
+
 .navbar-burger {
     color: white;
 }
